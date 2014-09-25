@@ -1,0 +1,18 @@
+{
+  "name": "eslint-rules",
+  "description": "Demo showing how to create a couple of custom ESLint rules.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/eslint-rules/issues",
+  "dependencies": {
+    "eslint": "^0.8.2"
+  },
+  "homepage": "https://github.com/pdehaan/eslint-rules",
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/eslint-rules",
+  "scripts": {
+    "start": "eslint --rulesdir rules *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
